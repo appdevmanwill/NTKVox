@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Sculpted geometric V acoustic wing -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26.5,36 L34.5,36 C36.8,36 37.8,38.2 38.8,41 L54,65 L69.2,41 C70.2,38.2 71.2,36 73.5,36 L81.5,36 L55.8,72.6 Q54,75.2 52.2,72.6 Z" />
+
+    <!-- Left soundwave bar -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M48.5,39.5 A1.5,1.5 0 0 1 50.0,41.0 L50.0,49.5 A1.5,1.5 0 0 1 47.0,49.5 L47.0,41.0 A1.5,1.5 0 0 1 48.5,39.5 Z" />
+
+    <!-- Center tall soundwave bar -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54.0,34.5 A1.7,1.7 0 0 1 55.7,36.2 L55.7,56.8 A1.7,1.7 0 0 1 52.3,56.8 L52.3,36.2 A1.7,1.7 0 0 1 54.0,34.5 Z" />
+
+    <!-- Right soundwave bar -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M59.5,39.5 A1.5,1.5 0 0 1 61.0,41.0 L61.0,49.5 A1.5,1.5 0 0 1 58.0,49.5 L58.0,41.0 A1.5,1.5 0 0 1 59.5,39.5 Z" />
+</vector>

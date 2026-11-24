@@ -105,7 +105,7 @@ fun OnboardingScreen(
                     Spacer(modifier = Modifier.height(18.dp))
 
                     Image(
-                        painter = painterResource(id = R.drawable.img_vox_setup_hero_1795374051173),
+                        painter = painterResource(id = R.drawable.img_ntkvox_hero),
                         contentDescription = stringResource(R.string.onboarding_title_1),
                         contentScale = ContentScale.Crop,
                         modifier = Modifier

@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/ntkvox-logo.png" alt="NTK VOX Logo" width="720" />
+</div>
+
 # NTK VOX
 
 **NTK VOX** is an offline, voice-activated (VOX) and continuous audio recorder for Android, built with Kotlin and Jetpack Compose.
