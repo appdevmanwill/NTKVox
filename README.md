@@ -1,5 +1,17 @@
 <div align="center">
   <img src="assets/ntkvox-logo.png" alt="NTK VOX Logo" width="720" />
+  <br /><br />
+  <a href="https://github.com/appdevmanwill/NTKVox/releases/latest/download/NTK-VOX-v1.0.apk">
+    <img src="assets/download-android-button.svg" alt="Download NTK VOX for Android (v1.0 APK)" width="360" />
+  </a>
+  <br />
+  <sub>
+    <a href="https://github.com/appdevmanwill/NTKVox/releases/latest/download/NTK-VOX-v1.0.apk"><strong>Direct APK Download (NTK-VOX-v1.0.apk)</strong></a>
+    &nbsp;&bull;&nbsp;
+    <a href="https://github.com/appdevmanwill/NTKVox/releases/latest"><strong>All Releases &amp; Checksums</strong></a>
+    &nbsp;&bull;&nbsp;
+    100% Offline (No Internet Permission)
+  </sub>
 </div>
 
 # NTK VOX
@@ -14,18 +26,36 @@ In **Voice-Activated (VOX)** mode, NTK VOX listens quietly in the background wit
 
 ## Download & Install on Android
 
-You do **not** need Android Studio, coding knowledge, or a computer to use NTK VOX. Download the app directly onto any phone running **Android 10 or newer**:
+You do **not** need Android Studio, coding skills, or a computer to use NTK VOX. Download the finished Android app right away on any phone running **Android 10 or newer**.
 
-- **[Download NTK VOX v1.0 APK (Android 10+, Release-Signed, 47.57 MB)](https://github.com/appdevmanwill/NTKVox/releases/latest/download/NTK-VOX-v1.0.apk)**
-- **[View GitHub Releases Page, SHA-256 Checksum & Signing Fingerprint](https://github.com/appdevmanwill/NTKVox/releases/latest)**
+> **Do NOT click the green "Code > Download ZIP" button.** That button downloads raw developer source code, not the finished phone app. Use the **Download NTK VOX for Android** button above or the links below instead.
 
-### Quick 4-Step Phone Install
-1. Open the direct APK download link above on your Android phone.
-2. When the download finishes, tap the `.apk` file from your browser downloads or your phone's **Files** app.
+### Option A: Visiting on Your Android Phone
+1. Tap **[Download NTK VOX v1.0 APK (47.57 MB)](https://github.com/appdevmanwill/NTKVox/releases/latest/download/NTK-VOX-v1.0.apk)**.
+2. When the download finishes, tap **`NTK-VOX-v1.0.apk`** in your browser notifications or open your phone's **Files / Downloads** app and tap it there.
 3. If Android asks for permission to install unknown apps, tap **Settings**, turn on **Allow from this source**, and tap **Back**.
-4. Tap **Install**, then open **NTK VOX** and follow the 2-step setup guide.
+4. Tap **Install**, then open **NTK VOX** and follow the 2-step setup guide. *(If Google Play Protect offers a one-time **Scan app** prompt for a newly sideloaded app, tap **Scan app** to let it verify the file.)*
 
-*(Want to compile the app yourself? Jump to [Beginner Step-by-Step Setup (Build & Run)](#beginner-step-by-step-setup-build--run) below.)*
+### Option B: Visiting on a Computer (Windows or Mac)
+
+<table>
+  <tr>
+    <td align="center" width="210">
+      <img src="assets/download-qr.png" alt="QR Code to download NTK VOX APK" width="180" />
+      <br />
+      <sub><strong>Scan with your Android camera</strong></sub>
+    </td>
+    <td>
+      <ol>
+        <li><strong>Fastest way:</strong> Point your Android phone's camera at the QR code on the left and tap the link to download <code>NTK-VOX-v1.0.apk</code> directly onto your phone.</li>
+        <li><strong>Or transfer from PC:</strong> Download <a href="https://github.com/appdevmanwill/NTKVox/releases/latest/download/NTK-VOX-v1.0.apk"><strong>NTK-VOX-v1.0.apk</strong></a> on your computer, send it to your phone via USB cable, Google Drive, Email, or WhatsApp, then tap the file on your phone to install.</li>
+      </ol>
+      <p><strong>Release Verification:</strong> <a href="https://github.com/appdevmanwill/NTKVox/releases/latest">View GitHub Releases Page, SHA-256 Checksum &amp; Signing Fingerprint</a></p>
+    </td>
+  </tr>
+</table>
+
+*(Want to compile the app from source code yourself? Jump to [Beginner Step-by-Step Setup (Build & Run)](#beginner-step-by-step-setup-build--run) below.)*
 
 ---
 
