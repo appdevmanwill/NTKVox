@@ -12,8 +12,26 @@ In **Voice-Activated (VOX)** mode, NTK VOX listens quietly in the background wit
 
 ---
 
+## Download & Install on Android
+
+You do **not** need Android Studio, coding knowledge, or a computer to use NTK VOX. Download the app directly onto any phone running **Android 10 or newer**:
+
+- **[Download NTK VOX v1.0 APK (Android 10+, Release-Signed, 47.57 MB)](https://github.com/appdevmanwill/NTKVox/releases/latest/download/NTK-VOX-v1.0.apk)**
+- **[View GitHub Releases Page, SHA-256 Checksum & Signing Fingerprint](https://github.com/appdevmanwill/NTKVox/releases/latest)**
+
+### Quick 4-Step Phone Install
+1. Open the direct APK download link above on your Android phone.
+2. When the download finishes, tap the `.apk` file from your browser downloads or your phone's **Files** app.
+3. If Android asks for permission to install unknown apps, tap **Settings**, turn on **Allow from this source**, and tap **Back**.
+4. Tap **Install**, then open **NTK VOX** and follow the 2-step setup guide.
+
+*(Want to compile the app yourself? Jump to [Beginner Step-by-Step Setup (Build & Run)](#beginner-step-by-step-setup-build--run) below.)*
+
+---
+
 ## Table of Contents
 
+- [Download & Install on Android](#download--install-on-android)
 - [Who This App Is For](#who-this-app-is-for)
 - [Key Features](#key-features)
   - [1. Two Recording Modes](#1-two-recording-modes)
