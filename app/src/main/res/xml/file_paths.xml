@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path
+        name="vox_sessions"
+        path="vox_sessions/" />
+    <cache-path
+        name="vox_exports"
+        path="vox_exports/" />
+</paths>

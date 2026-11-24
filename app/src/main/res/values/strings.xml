@@ -1,0 +1,315 @@
+<resources>
+    <string name="app_name">NTK VOX</string>
+
+    <!-- Navigation -->
+    <string name="tab_record">Record</string>
+    <string name="tab_recordings">Recordings</string>
+    <string name="cd_open_settings">Open settings</string>
+    <string name="cd_navigate_back">Go back</string>
+
+    <!-- Record Tab -->
+    <string name="status_ready">Ready</string>
+    <string name="status_listening">Listening for voices…</string>
+    <string name="status_recording">Recording speech…</string>
+    <string name="status_recording_continuous">Recording continuously…</string>
+    <string name="status_paused_call">Paused for phone call</string>
+    <string name="status_low_storage">Stopped • Storage almost full</string>
+    <string name="label_session_time">Session Time</string>
+    <string name="label_speech_captured">Speech Captured</string>
+    <string name="label_recorded_time">Recorded Time</string>
+    <string name="label_saved_parts">Saved Segments</string>
+    <string name="cd_start_recording">Start voice-activated recording</string>
+    <string name="cd_start_continuous">Start continuous recording</string>
+    <string name="cd_stop_recording">Stop recording</string>
+    <string name="hint_tap_to_start">Tap to start listening. Quiet gaps are automatically skipped.</string>
+    <string name="hint_tap_to_start_continuous">Tap to record continuously until you tap Stop.</string>
+    <string name="hint_background_safe">Safe to lock your screen. Recording continues in the background.</string>
+    <string name="hint_permission_needed">Microphone permission is needed before recording.</string>
+    <string name="action_grant_mic">Allow Microphone</string>
+    <string name="action_stop">Stop</string>
+
+    <!-- Recording Mode Switch -->
+    <string name="recording_mode_title">Voice-Activated (VOX)</string>
+    <string name="recording_mode_vox_badge">VOX On</string>
+    <string name="recording_mode_continuous_badge">Normal</string>
+    <string name="recording_mode_vox_desc">Catches voices automatically and skips quiet gaps.</string>
+    <string name="recording_mode_continuous_desc">Normal recorder — records nonstop until you tap Stop.</string>
+    <string name="recording_mode_locked_hint">Stop recording to switch modes.</string>
+    <string name="settings_mode_section">Recording Mode</string>
+    <string name="settings_vox_only_note">Applies when Voice-Activated (VOX) is turned on.</string>
+
+    <!-- Foreground Notification -->
+    <string name="notification_channel_name">Voice Recording</string>
+    <string name="notification_channel_desc">Shows live status while NTK VOX listens and records in the background.</string>
+    <string name="notification_title_listening">NTK VOX • Listening for voices</string>
+    <string name="notification_title_recording">NTK VOX • Recording speech</string>
+    <string name="notification_title_recording_continuous">NTK VOX • Recording continuously</string>
+    <string name="notification_title_paused">NTK VOX • Paused during call</string>
+    <string name="notification_action_stop">Stop</string>
+
+    <!-- Recordings Tab -->
+    <string name="recordings_title">Recordings</string>
+    <string name="recordings_empty_title">No recordings yet</string>
+    <string name="recordings_empty_body">Start a session on the Record tab using Voice-Activated (VOX) or Continuous Normal recording.</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+    <string name="dialog_rename_title">Rename recording</string>
+    <string name="dialog_rename_label">Recording name</string>
+    <string name="dialog_delete_title">Delete recording?</string>
+    <string name="dialog_delete_body">This permanently removes the session and all spoken clips from your device.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_confirm_delete">Delete</string>
+    <string name="share_chooser_title">Share recording</string>
+    <string name="share_preparing">Preparing audio file…</string>
+    <string name="share_empty_error">No spoken clips were captured in this session yet.</string>
+
+    <!-- Session Player -->
+    <string name="player_spoken_moments">Spoken Moments</string>
+    <string name="player_no_clips">No spoken moments in this session.</string>
+    <string name="cd_play">Play recording</string>
+    <string name="cd_pause">Pause recording</string>
+    <string name="cd_rewind_10">Rewind 10 seconds</string>
+    <string name="cd_forward_10">Skip forward 10 seconds</string>
+    <string name="cd_share_recording">Share recording</string>
+    <string name="cd_more_options">More options</string>
+
+    <!-- Settings Sheet -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_format_section">Audio Format</string>
+    <string name="settings_format_note">Changes apply to your next recording session.</string>
+    <string name="settings_sensitivity_section">Voice Sensitivity</string>
+    <string name="sensitivity_quiet_title">Quiet Voices</string>
+    <string name="sensitivity_quiet_badge">Recommended</string>
+    <string name="sensitivity_quiet_desc">Picks up soft-spoken voices and distant speakers clearly.</string>
+    <string name="sensitivity_normal_title">Normal Room</string>
+    <string name="sensitivity_normal_desc">Best for regular conversation in busier rooms.</string>
+    <string name="settings_delay_section">Silence Stop Delay</string>
+    <string name="settings_delay_desc">How long to keep recording after voices pause before saving the clip.</string>
+    <string name="settings_battery_button">Background Recording Check</string>
+    <string name="settings_battery_desc">Keep overnight and all-day recording running reliably with the screen off.</string>
+
+    <!-- Onboarding & Battery Check -->
+    <string name="onboarding_step_badge">Step %1$d of 2</string>
+    <string name="onboarding_title_1">Welcome to NTK VOX</string>
+    <string name="onboarding_subtitle_1">Switch easily between Voice-Activated (VOX) recording and Continuous Normal recording.</string>
+    <string name="onboarding_mic_title">Microphone Access</string>
+    <string name="onboarding_mic_desc">Lets NTK VOX listen for voices and capture your recordings.</string>
+    <string name="onboarding_notif_title">Status Notification</string>
+    <string name="onboarding_notif_desc">Shows a live indicator with a 1-tap Stop button while recording.</string>
+    <string name="onboarding_step1_cta">Allow &amp; Continue</string>
+    <string name="onboarding_step1_next">Continue</string>
+    <string name="onboarding_title_2">Keep Recording Screen-Off</string>
+    <string name="onboarding_subtitle_2">Phones often pause apps to save battery. Allowing unrestricted battery use keeps long sessions safe.</string>
+    <string name="onboarding_battery_allowed">Unrestricted battery is already enabled</string>
+    <string name="onboarding_battery_needed">Allow Unrestricted Battery</string>
+    <string name="onboarding_finish">Start Using NTK VOX</string>
+    <string name="onboarding_skip">Skip for now</string>
+    <string name="battery_guide_title">Background Recording Check</string>
+    <string name="battery_oem_tip_title">Device Tip (%1$s)</string>
+    <string name="battery_open_oem_settings">Open Device Battery Settings</string>
+    <string name="battery_done">Done</string>
+
+    <!-- Rule-Based Transcription & Summarization -->
+    <string name="tab_moments">Moments</string>
+    <string name="tab_summary">Summary</string>
+    <string name="tab_transcript">Transcript</string>
+    <string name="action_transcribe_summarize">Transcribe &amp; Summarize</string>
+    <string name="action_regenerate_summary">Refresh Summary</string>
+    <string name="action_edit_transcript">Edit Transcript</string>
+    <string name="action_save_transcript">Save &amp; Summarize</string>
+    <string name="action_dictate_note">Dictate</string>
+    <string name="processing_transcribing">Transcribing spoken clips on device…</string>
+    <string name="processing_summarizing">Building rule-based summary…</string>
+    <string name="summary_title">Concise Summary</string>
+    <string name="highlights_title">Key Takeaways</string>
+    <string name="keywords_title">Top Keywords</string>
+    <string name="transcript_title">Full Transcript</string>
+    <string name="notes_empty_title">Transcript &amp; Summary</string>
+    <string name="notes_empty_body">Transcribe your spoken clips on device and generate a concise rule-based summary with key highlights.</string>
+    <string name="notes_empty_body_legacy">On Android 10–12, NTK VOX builds an offline Acoustic Activity Log (speech phrases &amp; intensity). Use Dictate or Type Notes to summarize your exact words offline.</string>
+    <string name="action_generate_acoustic_log">Build Activity Log</string>
+    <string name="action_add_notes_manual">Type or Dictate Notes</string>
+    <string name="action_mark_short">Mark</string>
+    <string name="action_edit_short">Edit</string>
+    <string name="action_add_short">Add</string>
+    <string name="rule_based_badge">On-Device • Rule-Based</string>
+    <string name="badge_transcribed">Transcribed</string>
+    <string name="action_copy_text">Copy</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="transcript_edit_hint">Review or refine the transcript text, then tap Save &amp; Summarize to update the summary automatically.</string>
+
+    <!-- Hardening, Bookmarks, Search, Playback & Storage -->
+    <string name="status_paused_manual">Paused</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_mark_moment">Mark Moment</string>
+    <string name="bookmark_added">Moment bookmarked</string>
+    <string name="bookmarks_header">Bookmarked Moments</string>
+    <string name="search_recordings_hint">Search recordings, summaries, or transcripts…</string>
+    <string name="search_no_results">No matching recordings found</string>
+    <string name="search_no_results_body">Try a different keyword, date, or clear your search filter.</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="action_export_notes">Export .txt</string>
+    <string name="share_notes_title">Share Transcript &amp; Summary</string>
+    <string name="cd_playback_speed">Change playback speed</string>
+    <string name="notification_playback_channel">Audio Playback</string>
+    <string name="notification_playback_desc">Controls for listening to recordings in the background.</string>
+    <string name="notification_low_storage_title">NTK VOX stopped safely</string>
+    <string name="notification_low_storage_body">Device storage dropped below 100 MB. Your captured audio was saved safely.</string>
+    <string name="notification_autostop_title">NTK VOX timer finished</string>
+    <string name="notification_autostop_body">Your auto-stop timer completed and all audio was saved safely.</string>
+    <string name="notification_alerts_channel">Recording Alerts</string>
+    <string name="notification_alerts_desc">Important alerts for low storage or completed auto-stop timers.</string>
+    <string name="notification_title_paused_manual">NTK VOX • Paused</string>
+    <string name="settings_storage_section">Storage Manager</string>
+    <string name="settings_storage_used">NTK VOX Recordings</string>
+    <string name="settings_storage_trash">Recently Deleted</string>
+    <string name="settings_storage_cache">Temporary Export Cache</string>
+    <string name="settings_storage_free">Device Free Space</string>
+    <string name="settings_clear_cache">Clear Export Cache</string>
+    <string name="settings_cache_cleared">Temporary export cache cleared</string>
+
+    <!-- Auto-Stop Timer -->
+    <string name="auto_stop_label">Auto-Stop Timer</string>
+    <string name="auto_stop_off">Off</string>
+    <string name="auto_stop_remaining">Stops in %1$s</string>
+
+    <!-- Bookmarks & Editing -->
+    <string name="bookmark_edit_title">Edit Bookmark Label</string>
+    <string name="bookmark_edit_hint">Short label (optional)</string>
+    <string name="cd_edit_bookmark">Edit bookmark label</string>
+    <string name="cd_delete_bookmark">Delete bookmark</string>
+
+    <!-- Favorites, Categories & Trash Bin -->
+    <string name="filter_all">All</string>
+    <string name="filter_starred">Starred</string>
+    <string name="action_category">Category</string>
+    <string name="dialog_category_title">Choose category</string>
+    <string name="cd_toggle_favorite">Toggle favorite</string>
+    <string name="cd_open_trash">Open recently deleted</string>
+    <string name="trash_title">Recently Deleted</string>
+    <string name="trash_subtitle">Deleted recordings stay here for 30 days before permanent removal.</string>
+    <string name="trash_empty_title">Trash is empty</string>
+    <string name="trash_empty_body">Recordings you delete will appear here for 30 days so you can recover them anytime.</string>
+    <string name="action_move_to_trash">Move to Trash</string>
+    <string name="action_restore">Restore</string>
+    <string name="action_delete_forever">Delete Forever</string>
+    <string name="action_empty_trash">Empty Trash</string>
+    <string name="dialog_trash_body">This recording will move to Recently Deleted for 30 days before permanent removal.</string>
+    <string name="dialog_empty_trash_title">Empty Trash permanently?</string>
+    <string name="dialog_empty_trash_body">All recordings in Recently Deleted will be permanently erased and cannot be recovered.</string>
+    <string name="moved_to_trash_message">Moved to Recently Deleted</string>
+    <string name="restored_from_trash_message">Recording restored</string>
+
+    <!-- Voice Boost, Trim/Split & Mini Player -->
+    <string name="voice_boost_off">Boost Off</string>
+    <string name="cd_voice_boost">Change quiet-voice volume boost</string>
+    <string name="action_trim_split">Trim / Split</string>
+    <string name="trim_split_title">Trim or Split Recording</string>
+    <string name="tab_trim">Trim</string>
+    <string name="tab_split">Split</string>
+    <string name="trim_desc">Keep only the audio between Start and End.</string>
+    <string name="split_desc">Divide this recording into two separate recordings at the marker.</string>
+    <string name="save_as_new_copy">Save as new copy (keep original)</string>
+    <string name="action_apply_trim">Save Trimmed Audio</string>
+    <string name="action_apply_split">Split into 2 Recordings</string>
+    <string name="processing_audio_edit">Processing audio…</string>
+    <string name="cd_close_mini_player">Dismiss playback</string>
+
+    <!-- Scheduled Recordings & Silence Auto-Stop -->
+    <string name="schedules_title">Scheduled Recordings</string>
+    <string name="action_schedules">Schedule</string>
+    <string name="action_add_schedule">Add Schedule</string>
+    <string name="schedules_empty_title">No schedules yet</string>
+    <string name="schedules_empty_body">Set a date and time to auto-record and auto-stop, even if you forget to press Record.</string>
+    <string name="action_arm_standby">Arm Standby Mode</string>
+    <string name="action_disarm_standby">Disarm Standby</string>
+    <string name="status_armed_standby">Armed Standby</string>
+    <string name="armed_standby_desc">Waiting quietly for your scheduled time. Starts and stops automatically even with the screen off.</string>
+    <string name="notification_title_armed">NTK VOX • Armed for Schedule</string>
+    <string name="exact_alarm_banner_title">Allow Exact Alarms for On-Time Start</string>
+    <string name="exact_alarm_banner_body">Android needs Alarms &amp; Reminders permission to trigger scheduled recordings right on time.</string>
+    <string name="action_allow_exact_alarms">Allow</string>
+
+    <string name="silence_autostop_label">Silence Auto-Stop</string>
+    <string name="silence_autostop_desc">Stops and saves the whole recording if no voice is heard for this long (works in both VOX and Normal modes).</string>
+    <string name="silence_autostop_remaining">Silence stop in %1$s</string>
+    <string name="notification_silence_stop_title">NTK VOX stopped on silence</string>
+    <string name="notification_silence_stop_body">No voice was detected for %1$d min. Your recording was saved safely.</string>
+    <string name="notification_schedule_done_title">Scheduled recording finished</string>
+    <string name="notification_schedule_done_body">Your scheduled recording ended on time and was saved safely.</string>
+
+    <!-- Battery Optimization & Post-Recording Remove Silence -->
+    <string name="status_low_battery">Stopped • Battery critically low</string>
+    <string name="notification_low_battery_title">NTK VOX saved before low battery</string>
+    <string name="notification_low_battery_body">Battery reached %1$d%%. Your recording was saved safely.</string>
+    <string name="settings_battery_profile_section">Battery &amp; Efficiency</string>
+    <string name="settings_battery_profile_desc">Reduces CPU wakeups and screen-off overhead without sacrificing voice capture.</string>
+    <string name="settings_low_battery_stop_label">Auto-Save on Low Battery</string>
+    <string name="settings_low_battery_stop_desc">Stops and saves cleanly before your phone shuts off while unplugged.</string>
+    <string name="action_edit_audio">Edit Audio</string>
+    <string name="edit_audio_title">Edit Audio</string>
+    <string name="tab_clean_silence">Clean Silence</string>
+    <string name="clean_silence_desc">Automatically strip long quiet gaps while preserving natural breathing pauses.</string>
+    <string name="clean_silence_pause_label">Keep natural pauses</string>
+    <string name="clean_silence_sensitivity_label">Voice detection</string>
+    <string name="action_apply_clean_silence">Remove Silence</string>
+
+    <!-- Appearance / Theme, Custom Low-Battery, Telemetry, A-B Loop & Batch Tools -->
+    <string name="settings_appearance_section">Appearance</string>
+    <string name="settings_appearance_desc">Matches your phone theme by default, or pick Light or Dark anytime.</string>
+    <string name="cd_cycle_theme">Switch app theme</string>
+    <string name="settings_keep_screen_on_title">Keep Screen On While Recording</string>
+    <string name="settings_keep_screen_on_desc">Prevents screen sleep while NTK VOX is open on the Record tab.</string>
+    <string name="low_battery_custom_chip">Custom</string>
+    <string name="low_battery_custom_title" formatted="false">Custom Auto-Save Battery %</string>
+    <string name="low_battery_custom_desc" formatted="false">Enter a battery level from 1% to 50%. NTK VOX will stop and save safely when unplugged.</string>
+    <string name="low_battery_custom_hint">Battery percentage (1–50)</string>
+    <string name="action_save_to_music">Save to Music Folder</string>
+    <string name="action_add_bookmark_here">Bookmark</string>
+    <string name="action_ab_loop">A–B Loop</string>
+    <string name="action_set_loop_b">Set B</string>
+    <string name="cd_clear_loop">Clear A–B loop</string>
+    <string name="action_sort">Sort</string>
+    <string name="batch_selected_count">%1$d selected</string>
+    <string name="cd_select_all">Select all</string>
+    <string name="cd_exit_selection">Cancel selection</string>
+    <string name="quick_format_dialog_title">Choose Recording Format</string>
+
+    <!-- Non-AI Background Noise & Prominent-Voice Filtering -->
+    <string name="sensitivity_prominent_title">Prominent Only</string>
+    <string name="sensitivity_prominent_badge">Noise Guard</string>
+    <string name="sensitivity_prominent_desc">Focuses on close foreground speech and filters out fans, AC hum, and distant background chatter.</string>
+    <string name="acoustic_noise_filtered">Noise Filtered</string>
+    <string name="acoustic_voice_detected">Prominent Voice</string>
+    <string name="tab_clean_voice">Clean</string>
+    <string name="clean_voice_desc">Scans your recording offline, cuts background noise and distant chatter, and keeps prominent speech clear.</string>
+    <string name="clean_focus_preset_label">Voice Focus Preset</string>
+    <string name="clean_prominence_slider_label">Prominence Cutoff (%1$d dB below main voice)</string>
+    <string name="clean_reduce_steady_noise_title">Reduce steady background noise</string>
+    <string name="clean_reduce_steady_noise_desc">Gently lowers steady fan, AC, hum, and hiss behind voices — 100% offline.</string>
+    <string name="action_apply_clean_voice">Clean Voice &amp; Noise</string>
+
+    <!-- Export to Public Storage & Share Intent -->
+    <string name="action_export">Export</string>
+    <string name="action_export_recording">Export / Save</string>
+    <string name="cd_export_recording">Export or share recording</string>
+    <string name="export_dialog_title">Export Recording</string>
+    <string name="export_save_downloads">Save to Downloads</string>
+    <string name="export_save_downloads_desc">Saves a playable copy to Downloads/NTK VOX on your device.</string>
+    <string name="export_save_music">Save to Music Folder</string>
+    <string name="export_save_music_desc">Saves to Music/NTK VOX so music &amp; media players find it.</string>
+    <string name="export_share_intent">Share via Apps</string>
+    <string name="export_share_intent_desc">Send to WhatsApp, Email, Drive, Bluetooth, or any app.</string>
+
+    <!-- Settings Disk Usage Dashboard -->
+    <string name="settings_disk_usage_section">Disk Usage Dashboard</string>
+    <string name="settings_disk_total_label">Total Storage Consumed</string>
+    <string name="settings_disk_recordings_label">Active Recordings</string>
+    <string name="settings_disk_trash_label">Trash Bin (Reclaimable)</string>
+    <string name="settings_disk_cache_label">Export Cache</string>
+    <string name="settings_disk_empty_trash_size">Clear Trash Bin (Free %1$s)</string>
+    <string name="settings_disk_trash_empty_label">Trash Bin is Empty</string>
+</resources>
