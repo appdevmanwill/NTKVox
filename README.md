@@ -250,7 +250,7 @@ chmod +x gradlew
 ```
 
 The generated debug APK will be located at:
-`app/build/outputs/apk/debug/app-debug.apk`
+`app/build/outputs/apk/debug/NTK-VOX-debug.apk`
 
 ---
 
